@@ -3,7 +3,8 @@ box: golang
 build:
 
   steps:
-    - setup-go-workspace
+    - setup-go-workspace:
+      package-dir: src/github.com/amarburg/stoppable-http-server
 
     - script:
         name: go get
