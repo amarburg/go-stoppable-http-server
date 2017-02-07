@@ -4,7 +4,7 @@ build:
 
   steps:
     - setup-go-workspace:
-      package-dir: src/github.com/amarburg/go-stoppable-http-server
+      package-dir: github.com/amarburg/go-stoppable-http-server
 
     - script:
         name: go get
